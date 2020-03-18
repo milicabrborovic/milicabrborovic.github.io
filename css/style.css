@@ -62,7 +62,7 @@ p{
 }*/ 
 h1{
 	font-family: 'PT Mono', monospace;
-	font-size: 60px;
+	font-size: 70px;
 	position: absolute;
 	bottom:40%;
 	left: 30%;
@@ -91,7 +91,7 @@ body img{
 	z-index: 0;
 }
 
-/* KEYFRAMES */
+/* KEYFRAMES 
 
 @-webkit-keyframes animateBubble {
     0% {
@@ -145,9 +145,9 @@ body img{
     100% { 
         margin-left:50px;
     }
-}
+}*/
 
-/* ANIMATIONS */
+/* ANIMATIONs
 
 .x1 {
     -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
@@ -243,13 +243,13 @@ body img{
 }
 
 .bubble:after {
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); 
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); 
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); 
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%);
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 );
 
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -265,6 +265,7 @@ body img{
 	position: absolute;
 	width: 180px;
 }
+*/
 #about p{
     text-align: center;
 	margin-bottom: 6%;
@@ -343,7 +344,7 @@ body img{
 	-o-transform: translate(-50%, -50%);
 	font-size: 30px;
 	padding: 5%;
-	background: rgb(41, 226, 240);
+	background: rgba(41, 226, 240, 0.8);
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -351,12 +352,13 @@ body img{
 	-o-border-radius: 50%;
 }
 
-.mountain:hover a, .biology:hover a{
+.mountain:hover a, .biology:hover a, .herpetology:hover a, .petshop:hover a{
 	color: orange;
 
 }
-.mountain:hover, .biology:hover{
-	opacity: 0.5;
+.mountain:hover, .biology:hover, .herpetology:hover, .petshop:hover{
+   box-shadow: 10px -10px 5px 10px rgb(41, 226, 240);	
+   transform:translate(-30px, 20px);
 }
 #contact{
 	background-image: url(../images/futer.jpg);
@@ -418,7 +420,7 @@ body img{
 	}
 	h1{
 		font-size: 23px;
-		top: -20%;
+		bottom:-20%;
 		left: 20%;
 		
    }

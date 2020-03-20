@@ -368,6 +368,13 @@ body img{
 #projects{
 	margin-bottom: 8%;
 }
+.icon span::before{
+	font-size:40px;
+	color:#0056b3;
+	border-radius:50%;
+	padding:15px;
+	margin-left:50px;
+}
 #contact .jaa{
 	margin-top: 5px;;
 }
@@ -419,15 +426,13 @@ body img{
 		
 	}
 	h1{
-	font-size: 23px;
-	bottom:74%;
-	left: 20%;
+		font-size: 23px;
+		bottom:74%;
+		left: 20%;
 		
    }
   body{
 	  margin-right: 0;
   }
- .x6{
-	 display: none;
- }
+ 
 }

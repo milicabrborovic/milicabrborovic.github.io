@@ -45,6 +45,7 @@ p{
 	color: midnightblue;
 	background: #fff;
 }
+
 h1{
 	font-family: 'PT Mono', monospace;
 	font-size: 70px;
@@ -77,10 +78,11 @@ body img{
 }
 
 
-#about p{
+#about p, #ecology p{
     text-align: center;
-	margin-bottom: 6%;
-	background-color: rgb(240, 228, 236, 0.9);
+	margin-bottom: 2%;
+	
+	background-color: rgb(240, 228, 236, 0.7);
 	padding: 8%;
 	border-radius: 30px 5px 20px 10px /
 20px 15px 10px;
@@ -215,6 +217,7 @@ body img{
 	font-size:40px;
 	border-radius:50%;
 	padding:15px;
+	
 
 }
 .iconn span::before{
@@ -270,6 +273,37 @@ body img{
 .mai a:hover{
 	color: orange;
 }
+/*start ecology*/
+#ecology{
+	background-image: url(../images/forest.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+.biodiverzitet{
+	position: relative;
+	box-shadow: 0 0 10px  rgb(61, 166, 61);
+	padding: 2%;;
+}
+.biodiverzitet p{
+	position: absolute;
+	bottom: 5%;
+	visibility: hidden;
+	opacity: 0;
+	box-shadow: 0 0 10px  rgb(61, 166, 61);
+}
+.biodiverzitet:hover p{
+	visibility: visible;
+	opacity: 1;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+}
+
+/*end ecology*/
+
 
 
 
@@ -308,7 +342,7 @@ body img{
 	h1{
 		font-size: 23px;
 		top:-5%;
-		left:23%;
+		left: 25%;
 		
    }
 }

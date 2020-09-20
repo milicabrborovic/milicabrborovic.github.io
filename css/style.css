@@ -32,22 +32,8 @@ p{
 	-ms-transition: 1.5s;
 	-o-transition: 1.5s;
 }
-.navbar{
-	position: absolute;
-	top:5%;
-	right: 5%;
-}
-.navbar-nav .nav-item .nav-link{
-	color:white;
-    font-size:30px;  
-}
-.navbar-nav .nav-item .nav-link:hover{
-	color: midnightblue;
-	background: #fff;
-}
-
 h1{
-	font-family: 'PT Mono', monospace;
+	font-family: 'Special Elite', cursive;
 	font-size: 70px;
 	position: absolute;
 	bottom:40%;
@@ -58,10 +44,39 @@ h1{
 	color:#fff;
 	padding-top:10em;
   }
+h2{
+	font-size:50px;
+	margin:0 30px;
+	font-family: 'Inconsolata', monospace;
+}
+body{
+	font-family: 'Courgette', cursive;
+}
 body img{
     width: 100%;
     z-index: -1;
 }
+/***********************************end generalni opisi***************************************/
+/***********************************start header***************************************/
+
+.navbar{
+	position: absolute;
+	top:5%;
+	right: 5%;
+}
+.navbar-nav .nav-item .nav-link{
+	color:white;
+    font-size:30px;  
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: orange;
+}
+.navbar ul{
+	font-family: 'Special Elite', cursive;
+}
+/***********************************end header***************************************/
+
+/***********************************start typing text***************************************/
 
 @keyframes animated-text{
   from{width: 0;}
@@ -76,7 +91,7 @@ body img{
 	top: 0;
 	z-index: 0;
 }
-
+/***********************************end typing text***************************************/
 
 #about p, #ecology p{
     text-align: center;
@@ -87,6 +102,10 @@ body img{
 	border-radius: 30px 5px 20px 10px /
 20px 15px 10px;
 }
+.teaching img{
+	margin-bottom: 10px;
+	box-shadow: 0 0 10px 10px #bbb;
+}
 #projects{
 	background-image: url(../images/visual2.jpg);
 	background-repeat: no-repeat;
@@ -94,47 +113,31 @@ body img{
 	background-attachment: fixed;
 
 }
-#projects p{
+#projects h2{
 	padding: 5%;
 	color:#fff;
-	font-size: 60px;
+}
+@keyframes zoom {
+	0% {
+		background-size: 100%;
+	}
+	100% {
+		background-size: 120%;
+	}
+}
+.current{
+	border:1px solid #fff;
+	padding-bottom: 15px;
+	box-shadow: 0 0 10px 5px #bbb;
+	position: relative;
+	animation: zoom 4s linear alternate infinite;
+	-webkit-animation: zoom 4s linear alternate infinite;
 }
 
-@keyframes fadein {
-	0% {
-		 opacity: 0; 
-		}
-    10% {
-		 opacity: 1;
-		 }
+#projects img{
+	border:1px solid #fff;
 }
 
-@keyframes fadein2 {
-	0% {
-		 opacity: 0; 
-		}
-    30% {
-		 opacity: 1;
-		 }
-}
-
-
-@keyframes fadein3 {
-	0% {
-		 opacity: 0; 
-		}
-    50% {
-		 opacity: 1;
-		 }
-}
-@keyframes fadein4 {
-	0% {
-		 opacity: 0; 
-		}
-    70% {
-		 opacity: 1;
-		 }
-}
 
 
 .mountain,.biology{
@@ -159,11 +162,11 @@ body img{
 	-o-border-radius: 50%;
 }
 
-.mountain:hover a, .biology:hover a, .herpetology:hover a, .petshop:hover a{
+.mountain:hover a, .biology:hover a, .herpetology:hover a, .petshop:hover a, .hemopral:hover a, .dbsite:hover a{
 	color: orange;
 
 }
-.mountain:hover, .biology:hover, .herpetology:hover, .petshop:hover{
+.mountain:hover, .biology:hover, .herpetology:hover, .petshop:hover, .hemopral:hover, .dbsite:hover{
    /*box-shadow: 5px -5px 2px 5px #fff;*/
    transform: translateY(-15px);
   /* transform:translate(-10px, 5px);
@@ -181,31 +184,10 @@ body img{
 	-ms-transform:translate(10px, 5px);
 	-o-transform:translate(10px, 5px);*/
 }
-.baner:hover .iconn, .mountain:hover .icon, .biology:hover .icon, .herpetology:hover .icon, .petshop:hover .icon{
+.baner:hover .iconn, .mountain:hover .icon, .biology:hover .icon, .herpetology:hover .icon, .petshop:hover .icon, .hemopral:hover .icon, .dbsite:hover .icon{
 	transform: scale(1.3);
 	transition: 1s;
 }
-.tools{
-    -webkit-animation: fadein 4s ease-in alternate infinite;
-    -moz-animation: fadein 4s ease-in alternate infinite;
-    animation: fadein 4s ease-in alternate infinite;
-}
-.tools2{
-    -webkit-animation: fadein2 4s ease-in alternate infinite;
-    -moz-animation: fadein2 4s ease-in alternate infinite;
-    animation: fadein2 4s ease-in alternate infinite;
-}
-.tools3{
-    -webkit-animation: fadein3 4s ease-in alternate infinite;
-    -moz-animation: fadein3 4s ease-in alternate infinite;
-    animation: fadein3 4s ease-in alternate infinite;
-}
-.tools4{
-    -webkit-animation: fadein4 4s ease-in alternate infinite;
-    -moz-animation: fadein4 4s ease-in alternate infinite;
-    animation: fadein4 4s ease-in alternate infinite;
-}
-
 #contact{
 	background-image: url(../images/futer.jpg);
 	background-size: cover;
@@ -216,8 +198,14 @@ body img{
 	color:#fff;
 	font-size:40px;
 	border-radius:50%;
-	padding:15px;
-	
+	padding:15px;	
+
+}
+.icon1 span::before{
+	color:#fff;
+	font-size:80px;
+	border-radius:50%;
+	padding:15px;	
 
 }
 .iconn span::before{
@@ -232,12 +220,16 @@ body img{
 .tools, .tools2, .tools3, .tools4{
 	margin-top: 10%;
 }
+/***********************************start footer***************************************/
 #contact .jaa{
 	margin-top: 5px;;
 }
 #contact p{
 	color:#fff;
 	margin-top: 5%;
+}
+#contact{
+	font-family: 'Inconsolata', monospace;
 }
 #contact p a:hover{
 	color:orange;
@@ -273,7 +265,8 @@ body img{
 .mai a:hover{
 	color: orange;
 }
-/*start ecology*/
+/***********************************end footer***************************************/
+/******************************************start ecology*************************************************/
 #ecology{
 	background-image: url(../images/forest.jpg);
 	background-repeat: no-repeat;
@@ -302,7 +295,7 @@ body img{
 	-o-transition: 1s;
 }
 
-/*end ecology*/
+/************************************************end ecology***********************************************/
 
 
 

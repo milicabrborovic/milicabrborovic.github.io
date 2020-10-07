@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 01/05/2020 11:46
+  	Creation date: 20/09/2020 15:37
   	*/
 
 @font-face {
@@ -30,11 +30,13 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-html-5:before { content: "\f100"; }
-.flaticon-css-3:before { content: "\f101"; }
-.flaticon-jquery-sketch-symbol:before { content: "\f102"; }
-.flaticon-js-format:before { content: "\f103"; }
-.flaticon-wordpress:before { content: "\f104"; }
-.flaticon-photoshop:before { content: "\f105"; }
-.flaticon-digital-marketing:before { content: "\f106"; }
-.flaticon-bootstrap:before { content: "\f107"; }
+.flaticon-files:before { content: "\f100"; }
+.flaticon-responsive-design-symbol:before { content: "\f101"; }
+.flaticon-html-5:before { content: "\f102"; }
+.flaticon-css-3:before { content: "\f103"; }
+.flaticon-photoshop:before { content: "\f104"; }
+.flaticon-js-format:before { content: "\f105"; }
+.flaticon-wordpress:before { content: "\f106"; }
+.flaticon-digital-marketing:before { content: "\f107"; }
+.flaticon-jquery-sketch-symbol:before { content: "\f108"; }
+.flaticon-bootstrap:before { content: "\f109"; }

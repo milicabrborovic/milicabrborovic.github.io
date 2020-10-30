@@ -199,6 +199,8 @@ body img{
 	font-size:40px;
 	border-radius:50%;
 	padding:15px;	
+	display:inline-block;
+	margin-top:10px;
 
 }
 .icon1 span::before{
@@ -213,6 +215,8 @@ body img{
 	font-size:40px;
 	border-radius:50%;
 	padding:25px;
+	display:inline-block;
+	margin-top:10px;
 }
 .tools span::before, .tools2 span::before, .tools3 span::before, .tools4 span::before{
 	font-size: 130px;

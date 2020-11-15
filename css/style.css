@@ -32,18 +32,28 @@ p{
 	-ms-transition: 1.5s;
 	-o-transition: 1.5s;
 }
+.text{
+	position: relative;
+	background-image: url(../images/dark.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 110vh;
+	overflow: hidden;
+	
+}
 h1{
 	font-family: 'Special Elite', cursive;
 	font-size: 70px;
 	position: absolute;
-	bottom:40%;
+	bottom: 50%;
 	left: 30%;
 	color:#fff;
 	line-height: 1.5;
 	text-align: center;
 	color:#fff;
 	padding-top:10em;
-  }
+	
+}
 h2{
 	font-size:50px;
 	margin:0 30px;
@@ -324,7 +334,7 @@ figure:hover{
 @media(max-width:1440px){
 	h1{
 		font-size: 38px;
-		top:-8%;
+		
 		left: 25%;
 		
 	}
@@ -337,6 +347,9 @@ figure:hover{
 		top:0;
 		
 	}
+	.text{
+		min-height: 70vh;
+	}
 
   body{
 	  margin-right: 0;
@@ -346,7 +359,7 @@ figure:hover{
   }
   h1{
 	font-size: 33px;
-	top:-7%;
+	
 	left: 25%;
 	
 }
@@ -354,7 +367,7 @@ figure:hover{
 @media(max-width:425px){
 	h1{
 		font-size: 23px;
-		top:-5%;
+		
 		left: 25%;
 		
    }

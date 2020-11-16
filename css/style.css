@@ -348,7 +348,10 @@ figure:hover{
 		
 	}
 	.text{
-		min-height: 70vh;
+		min-height: 55vh;
+	}
+	h2{
+		font-size: 25px;
 	}
 
   body{
@@ -359,7 +362,6 @@ figure:hover{
   }
   h1{
 	font-size: 33px;
-	
 	left: 25%;
 	
 }

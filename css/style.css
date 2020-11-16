@@ -14,7 +14,7 @@ p{
     font-size: 25px;
 }
 
-.strelica {
+	.strelica {
 		position: fixed;
 		bottom: 5%;
 		right: 5%;
@@ -101,7 +101,6 @@ body img{
 	top: 0;
 	z-index: 0;
 }
-
 /***********************************end typing text***************************************/
 
 #about p, #ecology p{
@@ -335,7 +334,6 @@ figure:hover{
 @media(max-width:1440px){
 	h1{
 		font-size: 38px;
-		
 		left: 25%;
 		
 	}
@@ -363,15 +361,12 @@ figure:hover{
   }
   h1{
 	font-size: 33px;
-	left: 25%;
-	
 }
 }
 @media(max-width:425px){
 	h1{
 		font-size: 23px;
-		
-		left: 25%;
+		left: 16%;
 		
    }
    .see{

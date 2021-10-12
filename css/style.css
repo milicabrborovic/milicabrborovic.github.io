@@ -68,6 +68,7 @@ body img{
 }
 /***********************************end generalni opisi***************************************/
 /***********************************start header***************************************/
+
 .navbar{
 	position: absolute;
 	top:5%;
@@ -82,6 +83,29 @@ body img{
 }
 .navbar ul{
 	font-family: 'Special Elite', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+	color:#fff;
+}
+.navbar-nav .dropdown-menu{
+	background-color: #015294;
+}
+.navbar-nav .dropdown-menu .dropdown-item{
+	color:#fff;
+	padding: 10px 5px;
+	font-size: 20px;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+	color:orange;
+	background: none;
+}
+.language a{
+	font-family: 'Roboto', sans-serif;
+	color: orange;
+}
+.language a:first-child{
+	border-right: 1px solid #fff;
 }
 /***********************************end header***************************************/
 
@@ -194,14 +218,11 @@ body img{
 
 }
 
-.baner:hover .iconn, .mountain:hover .icon, .biology:hover .icon, .herpetology:hover .icon, .petshop:hover .icon, .hemopral:hover .icon, .dbsite:hover .icon{
-	transform: scale(1.3);
-	transition: 1s;
+.mountain:hover .icon span::before{
+	color: orange;
 }
 #contact{
-	background-image: url(../images/futer.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: #015294;
 }
 
 .icon span::before{
@@ -248,11 +269,42 @@ body img{
 }
 
 .ban span::before{
-	color:#0c5fb3;
+	color:#333;
+	font-size: 60px;
 }
-
-
-
+.card .card-header{
+	background-color: #015294;
+	--webkit-box-shadow: -2px -8px 22px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px -8px 22px -2px rgba(0,0,0,0.75);
+	box-shadow: -2px -8px 22px -2px rgba(0,0,0,0.75);
+	
+}
+.card-header h5 button{
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	width: 100%;
+	
+}
+.card-header h5 button:hover{
+	color:orange;
+	text-decoration: none;
+}
+.card-body{
+	font-family: 'Roboto', sans-serif;
+	border:1px solid #015294;
+}
+.con{
+	
+	box-shadow: 6px 6px 5px 2px rgb(180 175 175);
+}
+.card-body p a{
+	color:#333;
+}
+.card-body p a:hover{
+	color: orange;
+	text-decoration: underline;
+}
 /***********************************start footer***************************************/
 #contact .jaa{
 	margin-top: 5px;;

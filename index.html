@@ -10,6 +10,9 @@
     <meta name="facebook-domain-verification" content="ozq3kzj2i326drl4ztcxgjzs3zq85f" />
     <meta name="facebook-domain-verification" content="e90qanc046cvetlniceo2vpl1yy0o7" />
 	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Courier+Prime:wght@400;700&family=Inconsolata:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="stylesheet" href="font/flaticon.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -50,17 +53,26 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="#about">About me</a>
+                    <a class="nav-link" href="#about">O meni</a>
                   </li>
                  
-                  <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Projekti</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="index.html#projects">Web development</a>
+                      <a class="dropdown-item" href="index.html#ban">Internet marketing</a>
+                    </div><!-- end dropdown -->
+                    </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Kontakt</a>
                   </li>
                 </ul>
+              <div class="language">
+                <a href="#" class="mx-2 pr-2">SR</a>
+                <a href="english.html">EN</a>
+              </div><!-- end language -->
                 
               </div><!-- end collapse -->
           </div><!-- end container -->
@@ -70,7 +82,7 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
     <div class="text">  
            <!-- <h1>Hello! My name is Milica</h1> --> 
            <h1>
-            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Milica.", "I love web design." ]'>
+            <a href="" class="typewrite" data-period="2000" data-type='[ "Ćao, Ja sam Milica.", "Pročitaj o meni." ]'>
               <span class="wrap"></span>
             </a>
           </h1>
@@ -111,12 +123,10 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
             </div>
           </div> 
           <div class="col-12 col-lg-6 pt-4 mt-4" data-aos="zoom-in-down">
-            <p>I am Milica Brborović, an ambitious and creative web designer with two years of experience. My field of work is frontend design, which includes work in HTML, CSS, Boostrap, and jQuery (library of JavaScript). When I change photos and make some banners, I use Photoshop. Also, I'm working with some backend technologies such are PHP program languages and MySQL database. Besides, I'm operating with WordPress and use all its advantages.  
-              One of my activities is content writing for some blogs about a couple of things related to my profession.  Also, I deal with digital marketing that includes banner designing, writing content for social networks, creating ads for Google and Facebook, and using tools for making email campaigns.
-              Teaching is my particular passion. Due to that, I work as a lecturer of web design, digital marketing and an English teacher for foreigners. 
-              I'm highly interested in practicing and improving my knowledge as well as learning new methods in this creative branch.
-              I am looking forward to getting in touch with you, therefore feel free to ask me anything you want to know.
+            <p>Moje ime je Milica Brborović, ambiciozan i kreativan veb dizajner, sa oko 2 godine iskustva. Prvenstveno se bavim frontend dizajnom što podrazumjeva rad sa HTML-om, CSS-om. Bootstrap-om i jQuery (bibliotekom JavaScript-a). Za rad sa fotografijama i izradu banera korisim Photoshop. Takođe, radim i sa nekim backend tehnologijama kao što su programski jezik PHP i Baze podataka (MySQL). Pored toga, radim i sa WordPress-om i korstim sve njegove prednosti. Još jedna od aktivnosti kojima se bavim je content pisanje na nekoliko blogova o temama vezanim za moju profesiju. Takođe, bavim se internet marketingom što podrazumjeva izradu banera, pisanje sadržaja za društvene mreže, kreiranje Facebook i Google reklama, kao i rad sa alatima za izradu email kampanja. Veoma sam zainteresovana za unapređivanje svog znanja kao i učenja novih metoda iz ovih branši. Podučavanje je moja posebna strast. Shodno tome, radim kao predavač veb dizajna i internet marketinga, kao i online predavač Engleskog jezika za strance. Radujem se kontaktu sa vama, tako da budite slobodni da me pitate sve što vas zanima.
               </p> 
+              <p><a href="cv/CV - Milica B..pdf" target="_blank" style="color:#015294; text-decoration: underline;"><i class="fa fa-file-o" aria-hidden="true"></i> Ovdje je moj CV</a></p>
+              
             </div>
             <div class="col-12 col-lg-3 pt-4">
               <div class="row">
@@ -150,7 +160,7 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
             </div>      
       
             <div class="col-12 text-center my-4">
-                <h2>My teachig time:</h2>
+                <h2>Moja predavanja:</h2>
             </div><!--end col 12-->
          <div class="container py-5">
            <div class="row">
@@ -179,15 +189,15 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
   <div class="container">
     <div class="row">
       <div class="col-12 text-center icon1">
-        <h2 class="text-center">Here is some of my web design work: </h2>
+        <h2 class="text-center">Evo nekoliko mojih web development radova: </h2>
         <span class="flaticon-responsive-design-symbol"></span>
       </div><!-- end  col-12 -->
-      <div class="col-12 my-5 current" data-aos="fade-up"
+      <div class="col-12 my-5 current"
       data-aos-anchor-placement="top-center">
-        <h2 class="text-center">Websites by me:</h2>
+        <h2 class="text-center">Moji sajtovi:</h2>
         <div class="row">
 
-          <div class="col-12 col-lg-6 hemopral">
+          <div class="col-12 col-lg-6 mountain"">
             <a href="http://hemopral.com/"  target="_blank"><img src="images/hemopralsite.JPG" alt="hemopral" class="img-fluid"></a>
           <div class="see">
             <a href="http://hemopral.com/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -198,21 +208,24 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
               <span class="flaticon-css-3" title="css3"></span>
               <span class="flaticon-bootstrap" title="bootrstrap"></span>
               <span class="flaticon-files" title="php"></span>
+              <br><span class="flaticon-js-format" title="java script"></span>
+              <span class="flaticon-jquery-sketch-symbol" title="jquery"></span>
             </div>
           </div>
         </div><!--end hemopral site-->
-      <div class="col-12 col-lg-6 dbsite"> 
+      <div class="col-12 col-lg-6 mountain""> 
           <a href="http://dbbestprofile.com/index.html" target="_blank"><img src="images/dbsite.JPG" alt="dbsite" class="img-fluid"></a>
           <div class="see">
             <a href=" http://dbbestprofile.com/index.html" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
           </div>
           <div class="row">
             <div class="col-12 col-lg-12 text-center icon">
-              <span class="flaticon-bootstrap" title="bootrstrap"></span>
               <span class="flaticon-html-5" title="html5"></span>
               <span class="flaticon-css-3" title="css3"></span>
-      <span class="flaticon-files" title="php"></span>
-      <span class="flaticon-photoshop" title="photoshop"></span>
+              <span class="flaticon-bootstrap" title="bootrstrap"></span>
+             <span class="flaticon-files" title="php"></span>
+             <br><span class="flaticon-js-format" title="java script"></span>
+             <span class="flaticon-jquery-sketch-symbol" title="jquery"></span>
             </div>
           </div>
       </div><!--end dbsite-->
@@ -220,6 +233,41 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
   </div><!--end current-->
   <div class="row" data-aos="fade-up"
   data-aos-anchor-placement="top-center">
+
+  <div class="col-12 col-lg-6 mountain" >
+    <a href="http://pezz.byethost4.com"  target="_blank"><img src="images/pez.jpg" alt="mpez" class="img-fluid"></a>
+  <div class="see">
+    <a href="http://pezz.byethost4.com" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-12 text-center icon">
+      <span class="flaticon-html-5" title="html5"></span>
+      <span class="flaticon-css-3" title="css3"></span>
+      <span class="flaticon-bootstrap" title="bootrstrap"></span>
+      <span class="flaticon-js-format" title="java script"></span>
+      <span class="flaticon-jquery-sketch-symbol" title="jquery"></span>
+      <br><span class="flaticon-files" title="php"></span>
+      <span class="fa fa-database" aria-hidden="true" title="MySQL"></span>
+    </div>
+  </div>
+</div><!--end mountain-->
+
+
+<div class="col-12 col-lg-6 mountain" >
+  <a href="http://mdb-webshop.byethost31.com"  target="_blank"><img src="images/mdb-shop.jpg" alt="mdb-shop" class="img-fluid"></a>
+<div class="see">
+  <a href="http://mdb-webshop.byethost31.com"  target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
+</div>
+<div class="row">
+  <div class="col-12 col-lg-12 text-center icon">
+    <span class="flaticon-html-5" title="html5"></span>
+    <span class="flaticon-css-3" title="css3"></span>
+    <span class="flaticon-bootstrap" title="bootrstrap"></span>
+    <span class="flaticon-jquery-sketch-symbol" title="jquery"></span>
+  </div>
+</div>
+</div><!--end mountain-->
+
     <div class="col-12 col-lg-6 mountain" >
         <a href="http://polaznici.infoarts.host/milica_brborovic/"  target="_blank"><img src="images/mountain.jpg" alt="mountain" class="img-fluid"></a>
       <div class="see">
@@ -233,7 +281,7 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
         </div>
       </div>
     </div><!--end mountain-->
-  <div class="col-12 col-lg-6 biology"> 
+  <div class="col-12 col-lg-6 mountain"> 
       <a href="https://milicabrborovic.github.io/biosite/" target="_blank"><img src="images/biology.jpg" alt="mountain" class="img-fluid"></a>
       <div class="see">
         <a href="https://milicabrborovic.github.io/biosite/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -249,7 +297,7 @@ src="https://www.facebook.com/tr?id=848194719212113&ev=PageView&noscript=1"
 </div><!--end row-->
 <div class="row mt-5" data-aos="fade-up"
 data-aos-anchor-placement="top-center">
-  <div class="col-12 col-lg-6 herpetology">
+  <div class="col-12 col-lg-6 mountain">
       <a href="https://milicabrborovic.github.io/herpetology/"  target="_blank"><img src="images/herpetology.jpg" alt="herpetology" class="img-fluid"></a>
     <div class="see">
       <a href="https://milicabrborovic.github.io/herpetology/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -262,21 +310,39 @@ data-aos-anchor-placement="top-center">
       </div>
     </div>
   </div><!--end herpetology-->
-  <div class="col-12 col-lg-6 petshop"> 
-    <a href="https://milicabrborovic.github.io/Pet-Shop/" target="_blank"><img src="images/petshop.jpg" alt="petshop" class="img-fluid"></a>
+  <div class="col-12 col-lg-6 mountain"> 
+    <a href="http://vsocer.byethost7.com/" target="_blank"><img src="images/vsocer.JPG" alt="petshop" class="img-fluid"></a>
     <div class="see">
-      <a href="https://milicabrborovic.github.io/Pet-Shop/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
+      <a href="http://vsocer.byethost7.com/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a>
     </div>
       <div class="row">
         <div class="col-12 col-lg-12 text-center icon">
           <span class="flaticon-html-5" title="html5"></span>
           <span class="flaticon-css-3" title="css3"></span>
-          <span class="flaticon-js-format" title="java script"></span>
-          <span class="flaticon-jquery-sketch-symbol" title="jquery"></span>
         </div>
       </div>
 	  
   </div><!--end pet shop-->
+
+  <div class="col-12">
+    <h2 class="text-center my-4">...i WordPress landing pages:</h2>
+  </div><!-- end col-12 -->
+
+  <div class="col-12 col-lg-6 baner mountain">
+    <a href="http://kupiobih.com/blender/" target="_blank"><img src="images/blender.jpg" alt="rastjerivac" class="img-fluid"></a>
+    <div class="col-12 col-lg-12 text-center iconn">
+      <span class="flaticon-photoshop" title="photoshop"></span>
+      <span class="flaticon-wordpress" title="wordpress"></span>
+    </div>
+  </div><!--end baner--> 
+
+  <div class="col-12 col-lg-6 baner mountain">
+    <a href="http://kupiobih.com/3357-2/" target="_blank"><img src="images/usisivacc.JPG" alt="rastjerivac" class="img-fluid"></a>
+    <div class="col-12 col-lg-12 text-center iconn">
+      <span class="flaticon-photoshop" title="photoshop"></span>
+      <span class="flaticon-wordpress" title="wordpress"></span>
+    </div>
+</div><!-- end baner -->
 </div><!--end row-mt-5 END WEB DESIGN WORKS-->
  </div><!-- end row -->
  </div><!-- end container -->
@@ -290,65 +356,177 @@ data-aos-anchor-placement="top-center">
 </section><!-- end projects -->
 
 
-<section class="ban">
+<section class="ban" id="ban">
  <div class="container">
-   <div class="row baners">
+   <div class="row baners text-center">
     <div class="col-12 text-center iconn">
-      <h2 class="my-4">And some baners:</h2>
-      <span class="flaticon-photoshop" title="photoshop"></span>
+      <h2 class="my-4">Ovo su moji marketing radovi:</h2>
+      <span class="flaticon-digital-marketing" title="digital marketing"></span>
     </div><!-- end col-12 -->
 
-    <div class="col-10 col-lg-2 d-none d-lg-block">
-      <img src="images/mikrovalna2.jpg" alt="mikrovalna">
-      <p>Google baner: 160x600</p>
-    </div>
-    <div class="col-12 col-lg-10">
-      <div class="row">
-        <div class="col-12">
-          <img src="images/glatkoca2.jpg" alt="glatkoca">
-          <p>Google baner: 720x90</p>
+   
+
+  <div class="col-12 text-center">
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Baneri za društvene mreže:
+            </button>
+          </h5>
         </div>
-        <div class="col-12 col-md-6 col-lg-6">
-          <img src="images/masinazasudjenova.jpg" alt="masina">
-          <p>FB baner: 1200x628</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6">
-          <img src="images/romobil.jpg" alt="masina">
-          <p>FB baner: 1200x628</p>
-        </div>
-        <div class="col-12 col-lg-4 d-none d-lg-block"></div><!-- end prazan div -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <img src="images/rastjerivacnovi.jpg" alt="rastjerivac">
-          <p>Google baner: 300x250</p>
-        </div>
-      </div>
     
-    </div>
-    
-
-
-
-    <div class="col-12">
-      <h2 class="text-center my-4">...and landing pages:</h2>
-    </div><!-- end col-12 -->
-
-    <div class="col-12 col-lg-6 baner">
-      <a href="http://kupiobih.com/blender/" target="_blank"><img src="images/blender.jpg" alt="rastjerivac" class="img-fluid"></a>
-      <div class="col-12 col-lg-12 text-center iconn">
-        <span class="flaticon-photoshop" title="photoshop"></span>
-        <span class="flaticon-wordpress" title="wordpress"></span>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+              <div class="row">
+                
+                <div class="col-12 col-md-6">
+                  <img src="images/masina-za-sudje.jpg" alt="masina">
+                  <p>FB baner: 1200x628</p>
+                </div>
+                <div class="col-12 col-md-6">
+                  <img src="images/aparat-za-kafu.jpg" alt="aparat">
+                  <p>FB baner: 1200x628</p>
+                </div>
+                <div class="col-12 col-md-4">
+                  <img src="images/Spomenik prirode.jpg" alt="Spomenik prirode">
+                  <p>FB and Instagram post: 1080x1080</p>
+                </div>
+                <div class="col-12 col-md-4">
+                  <img src="images/Zašto mi je potreban sajt.gif" alt="sajt">
+                  <p>FB and Instagram post: 1080x1080</p>
+                </div>
+                <div class="col-12 col-md-4">
+                  <img src="images/delimano.jpg" alt="delimano">
+                  <p>FB and Instagram post: 1080x1080</p>
+                </div>
+                <div class="col-12 col-lg-4 d-none d-lg-block"></div><!-- end prazan div --> 
+              </div><!-- end row -->
+            </div> <!-- end car-body-->
+          </div><!-- end colapse -->
+        </div>
       </div>
-    </div><!--end baner--> 
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Sadržaj za društvene mreže:
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-lg-6 text-left con">
+                <p>❓Želite li da započnete dan sa šoljicom omiljene kafe❓
+                <br>❗Postavljanje i korištenje kafe aparata, za pripremu kafe, poned zahtjeva previše prostora u vašoj kuhinji❗
+                <br>☕ Kafe aparati modernog dizajna se prilagođavaju svim vrstama kuhinje i olakšavaju proces pripreme omiljenog napitka
+                <br>☕ Dolce Gusto aparat će za pripremu kafe u kapsulama vam omogućava laku pripremu kako toplih, tako i hladnih napitaka
+                <br>👉👉👉 Pogledajte detaljan opis Dolce Gusto Picolo aparata na našem sajtu gdje možete izvršiti narudžbu sa rokom isporuke do 2 dana
+                  </p>
+            </div> <!-- end lg-6 -->
+            
+            <div class="col-12 col-lg-6 text-left con">
+              <p>❓ Želite li da upotpunite vašu kuhinju ❓
+                <br>❗ Pranje posuđa ponekad može da bude težak posao koji zahtjeva dosta vremena i odricanja ❗ 
+                <br>🙋 Mašina za suđe je najbolji prijatelj koji pojednostavljuje život svim ljudima koji provode vrijeme u kuhinji i skraćuje vrijeme tog boravka
+                <br>😁 Zbog toga vam nudimo uređaj koji će učiniti vaše suđe blistavim i uštediti ne samo vaše vrijeme nego i račun za električnu energiju 
+                <br>👉👉👉 Pogledajte na našem sajtu Gorenje samostojeću mašinu za pranje posuđa uz besplatnu dostavu na kućnu adresu sa rokom isporuke do 2 dana
+                </p>
+            </div><!-- end lg 6 -->
 
-    <div class="col-12 col-lg-6 baner">
-      <a href="http://kupiobih.com/3357-2/" target="_blank"><img src="images/usisivacc.JPG" alt="rastjerivac" class="img-fluid"></a>
-      <div class="col-12 col-lg-12 text-center iconn">
-        <span class="flaticon-photoshop" title="photoshop"></span>
-        <span class="flaticon-wordpress" title="wordpress"></span>
+            <div class="col-12 col-lg-6 text-left con">
+              <p>❓Trebate usluge izrade sajta ili/i promocije na društvenim mrežama❓
+              <br>❗Digitalno doba u kojem živimo zahtjeva da svoje poslovanje prezentujete online❗
+              <br>🧑‍💻 Vaši budući klijenti će informacije o vama prvo da potraže na internetu: u google pretraživaču, na facebook-u ili instagramu
+              <br>👉👉👉 Prezentujte vaše proizvode ili usluge na mreži i budite "rame uz rame" sa vašom konkurencijom
+              <br>✉️Pošaljite poruku u inbox ili na mejl: mbizradasajtova@gmail.com i već danas započnite da gradite vaše: "Mjesto pod Suncem digitalnog neba"</p>
+            </div> <!-- end lg 6 -->
+
+            <div class="col-12 col-lg-6 text-left con">
+              <p>❗️❗️❗️ Šta je to spomenik prirode ❓❓❓
+                <br>🟢 Četvrti po kategoriji zaštićenih područja
+                <br>🟢 IUCN kategorija: III
+                <br>🟢 Manja, izmjenjena ili djelimično izmjenjena prirodna prostorna cjelina
+                <br>🟢 Namjena: formiranje vrijednosti od naučnog, estetskog i obrazovnog značaja
+                <br>🟢 Proglašenje: Skupština jedinica lokalne samouprave
+                <br>☑️ U RS 1️4️⃣ spomenika prirode: “Pećina Ljubačevo”, “Pećina Orlovača”, “Žuta bukva”, “Pećina Rastuša”, “Jama Ledana”, “Vaganska pećina”. “Pećina Đatlo”, “Pavlova pećina”, “Girska pećina”, “Pećina pod lipom”, “Pećina Ledenjača”. “Velika pećina”, “Pećina Kuk” i “Lijevčanski knez”
+                <br>👇👇👇Na slici “Pećina Orlovača”
+                </p>
+            </div><!-- end lg-6 -->
+           
+          </div><!-- end row -->
+          </div><!-- end card-body -->
+        </div>
       </div>
-  </div><!-- end baner -->
-  
-  
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Google baneri:
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <div class="row">
+
+              <div class="col-lg-2 d-none d-lg-block">
+                <img src="images/mikrovalna2.jpg" alt="mikrovalna" class="img-fluid">
+                <p>Google baner: 160x600</p>
+              </div><!-- end lg-10 -->
+                <div class="col-lg-10">
+                  <img src="images/google-depilator.jpg" alt="glatkoca" class="img-fluid d-none d-lg-block">
+                  <p class="d-none d-lg-block">Google baner: 728x90</p>
+                  <div class="row">
+                    <div class="col-12 col-lg-4">
+                      <img src="images/google-vesmasina.gif" alt="rastjerivac">
+                      <p>Google baner: 300x250</p>
+                    </div><!-- end lg-6 -->
+                      <div class="col-12 col-lg-4">
+                        <img src="images/rastjerivacnovi.jpg" alt="rastjerivac">
+                        <p>Google baner: 300x250</p>
+                      </div><!-- end lg-6 -->
+                      <div class="col-12 col-lg-4">
+                        <img src="images/romobil.gif" alt="romobil">
+                        <p>Google baner: 300x250</p>
+                      </div><!-- end lg-6 -->
+                      <div class="col-lg-12 d-none d-lg-block">
+                        <img src="images/klima.gif" alt="klima" class="img-fluid d-none d-lg-block">
+                        <p class="text-center d-none d-lg-block">Google baner: 728x90</p>
+                      </div><!-- end lg-12 -->
+                  </div><!-- end row -->
+                </div><!-- end col-12 -->
+
+            </div><!-- end row -->
+          </div><!-- end card-body -->
+        </div><!-- end colapse -->
+      </div><!-- end card -->
+
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              Pisanje članaka:
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            <div class="col-12">
+                <h2 class="text-center">My članci:</h2>
+                <p><a href="https://www.webfactoryltd.com/blog/create-perfect-buying-persona/" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> How to Create a Perfect Buying Persona and Gain a Better Understanding of Your Customers</a></p>
+                <p><a href="https://www.themecircle.net/why-site-speed-important/" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Why Site Speed Is So Important and How It Affects Your Online Success</a></p>
+                <p><a href="https://wp301redirects.com/add-google-maps-to-wordpress/" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> How To Add Google Maps To WordPress: Build Trust, Improve Customer Experience And Rank Higher</a></p>
+                <p><a href="https://thebetterwebmovement.com/top-wordpress-grammar-checkers/" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Top 5 Grammar Checkers for WordPress: Spell Check and Improve Your Writing</a></p>
+                <p><a href="https://www.blogwolf.com/best-wordpress-whatsapp-plugins/#more-19628" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> 5 Best WordPress WhatsApp Plugins: Provide Better Customer Support and Improve UX</a></p>
+            </div><!-- end col-12 -->
+          </div><!-- end card-body -->
+        </div><!-- end colapse -->
+      </div><!-- end card -->
+    </div> <!-- end acordian -->
+</div><!-- end col-12 --> 
 </div><!-- end row -->
 </div><!-- end container BANERS AND LP WORKS -->
 
@@ -367,30 +545,30 @@ data-aos-anchor-placement="top-center">
             ></path>
           </svg>
           <div class="container">
-            <p class="text-center" data-aos="flip-left">
-              As someone who adores nature, I have finished the Faculty of ecology and environmental protection. I participated in several research camps where I was researching reptiles and amphibians, my favorite animal group. Also, as a member of the "Society for Research and Protection of Biodiversity ", I took part in several manifestations that have a goal of educating and popularizing biological diversity, and I work on projects which have a goal of restoration and improving endangered ecosystems.</p>
+            <p class="text-center">
+             Kao neko ko obožava prirodu, završila sam fakultet za ekologiju i zaštitu životne sredine. Bila sam učesnik nekoliko istraživačkih kampova, gdje sam proučavala vodozemce i gmizavce, moje omiljene grupe životinja. Takođe, kao član sam NVO "Društvo za istraživanje i zaštitu biodiverziteta", sam učestvovala na nekoliko manisfestacija koje su imale za cilj edukaciju i popularizaciju biodiverziteta, kao i rad na projektima na teme obnavljanja i poboljšanja životnih uslova u ugroženim ekosistemima.</p>
          <div class="row">
           <div class="col-12 col-lg-4 biodiverzitet">
             <img src="images/kampcardak.jpg" alt="kamp cardak">
-            <p>Natrix natrix (Grass snake)</p>
+            <p>Natrix natrix (Bjelouška)</p>
           </div><!--end col-12 col-lg-4-->
           <div class="col-12 col-lg-4 biodiverzitet">
             <img src="images/danidjeteta.jpg" alt="dani djeteta">
-            <p>Manifestation: "Dani djeteta"</p>
+            <p>Manifestacija: "Dani djeteta"</p>
           </div><!--end col-12 col-lg-4-->
           <div class="col-12 col-lg-4 biodiverzitet">
             <img src="images/tisina.jpg" alt="tisina">
-            <p>Wetland complex "Tišina"</p>
+            <p>Močvarni kompleks "Tišina"</p>
           </div><!--end col-12 col-lg-4-->
         </div><!--end row-->
         <div class="row">
           <div class="col-12 col-lg-6 biodiverzitet">
             <img src="images/kampbjeljina4.jpg" alt="kamp bijeljina">
-            <p>Camp "Eko centar Jezera"</p>
+            <p>Kamp "Eko centar Jezera"</p>
           </div><!--end col-12 col-lg-6-->
           <div class="col-12 col-lg-6 biodiverzitet">
             <img src="images/nocistazivaca.jpg" alt="noc istrazivaca">
-            <p>Manifestation: "Noć istraživača"</p>
+            <p>Manifestacija: "Noć istraživača"</p>
           </div><!--end col-12 col-lg-6-->
         </div><!--end row-->
       </div><!--end container-->
@@ -406,7 +584,7 @@ data-aos-anchor-placement="top-center">
 
           <div class="col-12 col-lg-7">
              <div class="col-12 col-lg-9">
-                <p>Contact me on email or social networks<br><a href="#about">Milica Brborović</a><br>
+                <p>Kontaktirajte me putem mejla ili društvenih mreža:<br><a href="#about">Milica Brborović</a><br>
                 <a href="https://goo.gl/maps/ZypnJpW5NYnxomy96" target="_blank"><i class="fa fa-map-marker te" aria-hidden="true"></i> Banja Luka</a></p>
             </div>
             
@@ -421,6 +599,7 @@ data-aos-anchor-placement="top-center">
               </div>
               <div class="col-12 social">
                 <span><a href="https://www.facebook.com/mb.website" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                <span><a href="https://www.instagram.com/mb.website" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
                 <span><a href="https://www.linkedin.com/in/milica-brborovic-30a71a1a0/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
                 <span><a href="https://github.com/milicabrborovic" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span>
               </div>

@@ -191,7 +191,7 @@ body img{
 }
 
 
-.mountain,.biology{
+/*.mountain,.biology{
 	position: relative;
 }
 .see{
@@ -220,7 +220,13 @@ body img{
 
 .mountain:hover .icon span::before{
 	color: orange;
+}*/
+.owl-theme .owl-dots .owl-dot span{
+	width: 15px;
+	height: 15px;
+	background: #015294;;
 }
+
 #contact{
 	background: #015294;
 }
@@ -417,6 +423,11 @@ body img{
   h1{
 	font-size: 33px;
 }
+}
+@media(max-width:570px){
+	.slajd{
+		padding: 0 40px;
+	}
 }
 @media(max-width:425px){
 	h1{

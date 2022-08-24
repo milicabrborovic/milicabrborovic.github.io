@@ -1,0 +1,450 @@
+@import url(reset.css);
+html {
+	scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+	color:#fff;
+   
+}
+a:hover{
+	text-decoration:none;
+}
+p{
+    line-height:1.5;
+    font-size: 20px;
+}
+:hover{
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+h1{
+	font-family: 'Courgette', cursive;
+	font-size: 40px;
+	
+}
+h2{
+	font-size:30px;
+	margin:30px 0;
+	font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+    background-color: #032741;
+    color: white;
+}
+p{
+    line-height: 1.5;
+   
+}
+img{
+    max-width: 100%;
+}
+.strelica {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: 50px;
+    padding: 5px;
+    color: #f29b10;
+    display: none;
+    z-index: 1;
+}
+/* end generalni opisi */
+/* start hero section */
+.hero{
+    background: url(../images/hero-section.jpg) no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    align-items: center;
+}
+/* GLOBAL STYLES */
+  
+  /* DEMO-SPECIFIC STYLES */
+
+  .typewriter h1{
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .12em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.03em; /* Adjust as needed */
+    width: 100%;
+    animation: 
+      typing 2.5s steps(30, end),
+      blink-caret .5s infinite;
+  }
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f29b10; }
+}
+
+.usluge{
+    color: #fff;
+}
+.usluge h2{
+    color: #f29b10;
+    font-weight: 600;
+}
+.usluge a:first-of-type{
+    background-color: #f29b10;
+    display: inline-block;
+    width: 35%;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: 1px solid #f29b10;
+    animation: uvecanje 1.5s ease-in;
+    -webkit-animation: uvecanje 1.5s ease-in;
+}
+.usluge a:first-of-type:hover{
+    color: #f29b10;
+    background: transparent;
+}
+@keyframes uvecanje {
+    from{
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+}
+    to{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+}
+.usluge p span{
+    font-style: italic;
+}
+.usluge a:last-of-type{
+    background-color: transparent;
+    display: inline-block;
+    width: 35%;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: 1px solid #f29b10;
+}
+.usluge a:last-of-type:hover{
+    color: white;
+    background: #f29b10;
+}
+/* end hero section */
+/* start heder */
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+}
+.navbar.nascrol{
+    background-color: #032741;
+    box-shadow: 0px 13px 9px 0px #000000bf;
+    padding: 10px 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f29b10 ;
+}
+.dropdown-item:hover{
+    color: #f29b10 ;
+    background-color: transparent;
+}
+.dropdown-item{
+    color: white;
+}
+.language{
+    float: right;
+}
+.language a{
+	color: white;
+}
+.language a:first-child{
+	border-right: 1px solid #fff;
+}
+.language a:hover, .language a.active{
+    color: #0b7fd2;
+}
+.dropdown-menu{
+    background-color: #032741;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.dropdown-menu .dropdown-item{
+    padding: 10px 5px;
+}
+/* end heder */
+/* start o meni */
+.ja h2, .radovi h2{
+    color: #f29b10;
+}
+.zuta{
+    position: relative;
+}
+.zuta::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 3px;
+    background-color: #f29b10;
+    left: -1%;
+    top: 0;
+}
+.ja img{
+    background-color: #f29b10;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 0 20px;
+    box-shadow: 13px 13px 9px 0px #000000bf;
+}
+#slider i{
+    font-size: 120px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    background-color: #f29b10;
+}   
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: white;
+}
+/* end o meni */
+/* start galerija */
+.teaching img{
+	margin-bottom: 10px;
+	box-shadow:13px 13px 9px 0px #000000bf;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}
+.teaching img:hover{
+	-webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+/* end galerija */
+
+/* start radovi */
+.radovi div{
+    border: 3px solid #f29b10;
+    overflow: hidden;
+    position: relative;
+}
+.radovi div h3 a{
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: #032741;
+    padding: 40px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    display: block;
+    border: 2px solid #f29b10;
+}
+.radovi div:hover h3 a{
+    opacity: 1;
+    visibility: visible;
+    color: #f29b10;
+}
+.radovi div img{
+    height: 100%;
+    transition: transform .6s;
+    -webkit-transition: transform .6s;
+    -moz-transition: transform .6s;
+    -ms-transition: transform .6s;
+    -o-transition: transform .6s;
+}
+.radovi div img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+#projects{
+	background-image: url(../images/visual2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+/* end radovi */
+/* start ban marketing radovi */
+#ban .accordion-button{
+    background-color: #f29b10;
+    padding: 30px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#ban .accordion-button:hover{
+    color: #032741;
+}
+#ban .accordion-item h2{
+    margin: 0;
+}
+#ban .accordion-body, #ban .accordion-body p a, #ban p{
+    color: #032741;
+}
+#ban .accordion-body p a:hover{
+    text-decoration: underline;
+    color: #f29b10;
+}
+.accordion-button::after{
+    background-image: url(../images/chevron-down-solid.png);
+}
+.onepage{
+    height: 800px;
+    overflow-y: scroll;
+}
+/* end ban marketing radovi */
+
+/* start ecology */
+#ecology{
+	background-image: url(../images/forest.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+.avatar{
+    border: 2px solid #f29b10;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 13px 13px 9px 0px #000000bf;
+    background-color: #f29b10a1;
+}
+.picture div:hover p{
+    color: #f29b10;
+}
+.picture div img{
+    border: 1px solid #f29b10;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 13px 13px 9px 0px #000000bf;
+}
+/* end ecology */
+/* start futer */
+#futer h2{
+    color: #f29b10;
+}
+#futer .nav-item .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+}
+.bye img{
+    width: 100%;
+}
+.mreze a i{
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding:10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+#futer a i:hover, #futer p a i:hover, #futer p a:hover{
+    color: #f29b10;
+}
+/* end futer */
+
+/************************************************ star @media */
+@media(max-width:992px) {
+    nav .language{
+        position: absolute;
+        bottom: -10px;
+        right: 2%;
+        padding-bottom: 20px;
+    }
+    nav.navbar{
+        position: relative;
+        background-color: #032741;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/grip-lines-solid.png");
+    }
+    .navbar-light .navbar-toggler {
+        color:white;
+        border-color: white;
+        margin-bottom: 20px;
+    }
+
+}
+@media(max-width:600px){
+    .onepage{
+        height: 300px;
+    }
+    .typewriter h1{
+        font-size: 28px;
+    }
+}
